@@ -1,0 +1,26 @@
+.each-button {
+    height: 80px;
+    flex: 1 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin: 5px;
+    cursor: pointer;
+    background-color: rgb(33, 33, 33);
+    color: white;
+}
+
+.each-button:hover {
+    background-color: rgb(13, 67, 52);
+}
+
+.operator {
+    background-color: blue;
+}
+
+.operator:hover {
+    background-color: brown;
+}
