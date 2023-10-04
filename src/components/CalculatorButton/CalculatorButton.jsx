@@ -9,7 +9,10 @@ const CalculatorButton = (props) => {
     }
 
     return (
-        <div className={`each-button ${isOperator(props.children) ? 'operator' : '' }`}>{props.children}</div>
+        <div className={`each-button ${isOperator(props.children) ? 'operator' : '' }`}
+        onClick={() => props.handleClick(props.children)}>
+            {props.children}
+        </div>
     )
 }
 

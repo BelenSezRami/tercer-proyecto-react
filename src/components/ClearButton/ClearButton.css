@@ -3,17 +3,17 @@
     font-size: 1.6em;
     display: flex;
     flex: 1;
-    background-color: rgb(215, 114, 127);
+    background-color: rgb(255, 200, 72);
     margin-top: 15px;
     margin-bottom: 15px;
     justify-content: center;
     align-items: center;
     color: black;
     border: 3px solid white;
-    border-radius: 20px;
+    border-radius: 40px;
     cursor: pointer;
 }
 
 .clear-button:hover {
-    background-color: rgb(255, 200, 72);
+    background-color: rgb(215, 114, 127);
 }

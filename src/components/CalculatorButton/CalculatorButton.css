@@ -14,13 +14,13 @@
 }
 
 .each-button:hover {
-    background-color: rgb(13, 67, 52);
+    background-color: brown;
 }
 
 .operator {
-    background-color: blue;
+    background-color: rgb(8, 71, 28);
 }
 
 .operator:hover {
-    background-color: brown;
+    background-color: rgb(149, 13, 195);
 }
