@@ -8,12 +8,23 @@ const CalculatorButton = (props) => {
         return ['+', '-', '*', '/'].includes(value);
     }
 
-    return (
-        <button className={`each-button ${isOperator(props.children) ? 'operator' : '' }`}
-        onClick={() => props.handleClick(props.children)}>
-            {props.children}
-        </button>
-    )
+    if (isOperator(props.children)) {
+
+        return (
+            <button className={'each-button operator'}
+                onClick={() => props.handleClick(props.children)}>
+                {props.children}
+            </button>
+        )
+    }
+    else {
+        return (
+            <button className={'each-button'}
+                onClick={() => props.handleClick(props.children)}>
+                {props.children}
+            </button>
+        )
+    }
 }
 
 export default CalculatorButton
